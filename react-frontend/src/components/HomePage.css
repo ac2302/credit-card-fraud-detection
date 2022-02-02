@@ -1,0 +1,63 @@
+/* banner */
+.homepage-banner {
+	position: relative;
+	height: calc(100vh - 60px);
+	/* background-image: url("https://cdn.pixabay.com/photo/2015/10/24/19/42/pattern-1004855_960_720.jpg"); */
+	/* background-image: url("https://media.istockphoto.com/vectors/crowd-of-young-and-elderly-men-and-women-in-trendy-hipster-clothes-vector-id1202344480?k=6&m=1202344480&s=612x612&w=0&h=Br9TYVsua5ws1Hc76P6PvK3-8AmCb0qz1zmFkdNTohg="); */
+	background-image: url("../assets/banner-tile.svg");
+	/* background-color: #0077b6; */
+	background-color: #2f2d2e;
+	background-size: 5000px;
+}
+.homepage-banner h1,
+.homepage-banner h2 {
+	color: rgb(255, 255, 255);
+	padding-left: 35px;
+	padding-right: 35px;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+		1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.homepage-banner h1 {
+	padding-top: 100px;
+	font-size: 50px;
+}
+.homepage-banner h2 {
+	padding-top: 50px;
+	font-size: 30px;
+}
+.homepage-banner button {
+	position: absolute;
+	margin-right: 35px;
+	margin-bottom: 100px;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 0;
+	border: 1px solid #000;
+
+	background-color: #fff;
+}
+.homepage-banner button:hover {
+	background-color: #edae49;
+}
+
+/* main page */
+.homepage-main-container {
+	border-top: solid #000 3px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.homepage-main-container hr {
+	border: 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: #2f2d2e;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
